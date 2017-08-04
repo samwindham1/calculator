@@ -1,0 +1,93 @@
+.border {
+  border: dashed 1px black;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.right {
+  text-align: right;
+}
+
+.left-row .btn {
+  float: left;
+}
+
+body {
+  min-width: 350px;
+  min-height: 500px;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.content {
+  height: 90vh;
+}
+
+.footer {
+  font-family: 'Open Sans', sans-serif;
+  height: 60px;
+  padding: 20px 0px;
+  color: #666;
+}
+.footer .link {
+  color: #666;
+  margin-left: 4px;
+  z-index: 50;
+  font-size: 0.9em;
+  vertical-align: middle;
+}
+
+.calculator {
+  padding: 25px 40px;
+  border-right: solid 5px #aaa;
+  border-bottom: solid 5px #aaa;
+  border-radius: 10px;
+  background-color: #eee;
+  width: 325px;
+}
+
+.screen {
+  font-weight: 400;
+  background-color: #cad1c8;
+  border-top: solid 2px #aaa;
+  border-left: solid 2px #aaa;
+  border-bottom: none;
+  border-radius: 5px;
+  height: 100px;
+  margin-bottom: 5px;
+}
+.screen #entry {
+  height: 45px;
+}
+.screen #history {
+  margin-top: 15px;
+}
+
+.btn {
+  color: #eee;
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 900;
+  background-color: #333;
+  border-top: solid 2px #aaa;
+  border-left: solid 2px #aaa;
+  border-right: solid 2px #222;
+  border-bottom: solid 2px #222;
+}
+.btn:hover {
+  cursor: default;
+}
+.btn:active {
+  background-color: #666;
+  border-top: solid 2px #222;
+  border-left: solid 2px #222;
+  border-right: solid 2px #aaa;
+  border-bottom: solid 2px #aaa;
+}
+.btn.clear {
+  background-color: #921f1f;
+}
+.btn.clear:active {
+  background-color: #b72f2f;
+}

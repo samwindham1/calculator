@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Calculator</title>
+
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Source+Code+Pro:400,900" rel="stylesheet">
+
+  <div class="container-fluid">
+    <div class="row d-flex justify-content-center align-items-center content">
+      <div class="calculator">
+        <div class="row screen">
+          <div class="col-12">
+            <div class="row right">
+              <div class="col-12">
+                <h1 id="entry">0</h1>
+              </div>
+            </div>
+            <div class="row right">
+              <div class="col-12">
+                <p id="history">0</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row left-row">
+          <div class="col-3 btn clear"><h3 id="clear-all">AC</h3></div>
+          <div class="col-3 btn clear"><h3 id="clear-entry">CE</h3></div>
+          <div class="col-3 btn"><h3 id="divide">/</h3></div>
+          <div class="col-3 btn"><h3 id="times">X</h3></div>
+        </div>
+        <div class="row d-flex justify-content-center">
+          <div class="col-3 btn"><h3 id="7">7</h3></div>
+          <div class="col-3 btn"><h3 id="8">8</h3></div>
+          <div class="col-3 btn"><h3 id="9">9</h3></div>
+          <div class="col-3 btn"><h3 id="minus">-</h3></div>
+        </div>
+        <div class="row d-flex justify-content-center">
+          <div class="col-3 btn"><h3 id="4">4</h3></div>
+          <div class="col-3 btn"><h3 id="5">5</h3></div>
+          <div class="col-3 btn"><h3 id="6">6</h3></div>
+          <div class="col-3 btn"><h3 id="plus">+</h3></div>
+        </div>
+        <div class="row">
+          <div class="col-9">
+            <div class="row d-flex justify-content-center">
+              <div class="col-4 btn"><h3 id="1">1</h3></div>
+              <div class="col-4 btn"><h3 id="2">2</h3></div>
+              <div class="col-4 btn"><h3 id="3">3</h3></div>
+            </div>
+            <div class="row d-flex justify-content-center">
+              <div class="col-8 btn"><h3 id="0">0</h3></div>
+              <div class="col-4 btn"><h3 id="decimal">.</h3></div>
+            </div>
+          </div>
+          <div class="col-3 btn"><h3 id="enter">=</h3></div>
+        </div>
+      </div>
+    </div>
+    <div class="row footer fixed-bottom">
+      <div class="col-12 center text-center">
+        <span><i class="fa fa-github fa-lg" aria-hidden="true"></i><a href="https://github.com/samwindham1" class="link" title="See Sam on Github">Sam Windham</a></span>
+      </div>
+    </div>
+  </div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+  <script src='https://use.fontawesome.com/ee0b815467.js'></script>
+
+  <script src="js/index.js"></script>
+
+</body>
+</html>
